@@ -1,0 +1,130 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+    --blue: #00BCF0;
+    --yellow: #FFE556;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+.bg-blue {
+	background-color: var(--blue);
+	color: var(--yellow);
+}
+
+header {
+    .orbitron-headline {
+        color: var(--yellow) !important;
+        font-family: "Orbitron", sans-serif !important;
+        font-optical-sizing: auto;
+        font-weight: 900 !important;
+        font-style: normal !important;
+        font-size: clamp(3.5rem, 8rem, 12vw);
+        -webkit-text-stroke-color: black;
+        -webkit-text-stroke-width: 2px;
+        text-shadow: 4px 4px 8px darkblue;
+    }    
+
+    .navbar {
+        background-color: var(--blue) !important;
+
+        a {
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: var(--yellow) !important;
+
+            &:hover {
+                text-shadow: 1px 1px 2px black;
+            }
+        }
+    }
+}
+
+.navbar-logo-container {
+	position: relative;
+	display: inline-block
+}
+
+.nav-link {
+    padding: 0.25rem 0.5rem !important;
+}
+
+.navbar-logo {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.nav-tabs .nav-link {
+    color: var(--yellow) !important;
+    font-size: 1.5rem !important;
+
+    &.active {
+        border-color: var(--yellow);
+        background-color: var(--blue);
+        color: var(--yellow) !important;        
+        font-weight: bold;
+    }
+}
+
+.blood-svg {
+    position: absolute;
+    top: 0; 
+    left: 0;
+	width: 130%;
+	height: 130%;
+	pointer-events: none;
+  }
+  
+  .blood-svg {
+    opacity: 0;
+  }
+  
+  .blood-splash-2 {
+    width: 100%;
+  }
+  
+  .blood-splash-3 {
+    width: 100%;
+  }
+
+/* <weight>: Use a value from 400 to 900 */
+/* <uniquifier>: Use a unique and descriptive class name */
+
+.tektur-500> {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.science-gothic-500 {
+  font-family: "Science Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "CTRS" 0;
+}
+
+.orbitron-500 {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+ul, ol {
+    padding-left: 1.25rem;
+}
+
+section.bg-white {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
