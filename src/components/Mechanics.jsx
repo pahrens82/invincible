@@ -3,7 +3,43 @@ export const Mechanics = () => {
         <section className={"bg-white px-3 pb-2"}>
             <h1>Mechanics</h1>
             <details className={"p-2 py-1 mb-2 border rounded"}>
-                <summary className={"h3"}>Not Combat</summary>
+                <summary className={"h3"}>Checks</summary>
+                <ul>
+                    <li>When making a check, collect dice equal to your score in the attribute being tested. This collection of dice is referred to as your dice pool.</li>
+                    <li>To succeed, you generally need only one success, which is a die showing 6.</li>
+                    <li>Successes beyond those needed to pass the check can be used for stunts, which are detailed below.</li>
+                    <li>You can only attempt any check once, with the exception of pushing (see below).</li>
+                    <li>Modifiers add or remove dice from your dice pool. You can never go below one die.</li>
+                    <li>Up to three allies can help you with a dice roll. Each ally helping you gives you +1 die, but they need to be in a position to actually support your action in a concrete way - just speaking to you is not enough. The GM has final say.</li>
+                    <li>To resolve opposed rolls, you must roll more successes than your opponent. Only the active character in an opposed roll can push their roll. Every success your opponent rolls eliminates one of your successes. Typically, if you roll the same number of successes as your opponent, your check fails, but in some cases, ties have specific effects. If a tie needs to be broken, re-roll the opposed roll.</li>
+                </ul>
+            </details>
+            <details className={"p-2 py-1 mb-2 border rounded"}>
+                <summary className={"h3"}>Pushing</summary>
+                <ul>
+                    <li>If you fail a roll, or just want more successes, you can push the roll.</li>
+                    <li>Reroll all dice that don't show a 1 or a 6.</li>
+                    <li>For each 1 rolled, you take 1 point of stress.</li>
+                    <li>You can only push rolls you are actively trying to perform; for example, you cannot push an INTUITION roll to see if you spot a surprise attack.</li>
+                    <li>If you have lost all RESOLVE, you cannot push rolls.</li>
+                    <li>You can normally only push a roll once. Certain talents can allow you to push a roll twice, however.</li>
+                </ul>
+            </details>
+            <details className={"p-2 py-1 mb-2 border rounded"}>
+                <summary className={"h3"}>Maps, Zones, Range, and Altitude</summary>
+                <ul>
+                    <li>Action scenes in this game are typically played out using a map of the area.</li>
+                    <li>The map is divided into zones. A zone is typically a room, a rooftop, or an area of ground up to about 100 feet wide.
+                        <ul>
+                            <li>Zones are generally smaller in a cramped environment than in open terrain.</li>
+                            <li>A border between two adjacent zones is either open or blocked. A blocked border can have a door, allowing movement between the two zones. Blocked zones may also block line of sight and line of effect.</li>
+                        </ul>
+                    </li>
+                    <li>The distance between you and your opponents is counted in zones. If you are in the same zone, the distance is 0 zones.</li>
+                </ul>
+            </details>
+            <details className={"p-2 py-1 mb-2 border rounded"}>
+                <summary className={"h3"}>Non-Combat Stunts</summary>
                 <p className={"mb-0"}><strong>Regular Stunts:</strong> If you roll more than one success on an attribute roll, you can achieve bonus effects called stunts. Some examples are listed below.</p>
                 <ul>
                     <li><strong>You show off:</strong> Everyone around you is impressed by your prowess.</li>
@@ -12,7 +48,6 @@ export const Mechanics = () => {
                     <li><strong>You learn something new:</strong> You learn something connected to the task at hand. The GM determines what you learn, if anything.</li>
                     <li><strong>You help a friend in need:</strong> giving them one of your successes. This only applied in situations where several heroes are rolling for the same action simultaneously.</li>
                 </ul>
-                <p className={"mb-1"}><strong>Pushing Your Roll:</strong> If you fail a roll, or want to try for more successes, you can push the roll. Reroll all dice that do not show a 1 or a 6. For each 1 rolled after pushing you take 1 point of stress. You cannot push passive rolls (IE, you can't push INTUITION to spot a surprise attack). If you have lost all Resolve, you cannot push rolls. You can normally only push a roll once, although certain talents might allow you to push twice.</p>
             </details>
             <details className={"px-2 py-1 mb-2 border rounded"}>
                 <summary className={"h3"}>Combat</summary>
