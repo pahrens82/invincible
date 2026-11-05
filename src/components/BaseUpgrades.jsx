@@ -107,11 +107,11 @@ export const BaseUpgrades = () => {
     return (
         <section className={"bg-white px-3 pb-2"}>
             <h1>Base Upgrades</h1>
-            <div className={"d-flex flex-column gap-lg-3"}>
+            <div className={"d-flex flex-column gap-lg-2"}>
                 {UPGRADES.map((upgrade) => {
                     return (
                         <details
-                            className={"border rounded px-2 py-1 mb-2"}
+                            className={"border rounded px-2 py-1"}
                             key={upgrade.name.toLowerCase().replaceAll(" ", "-")}
                         >
                             <summary className={"h5 mb-1"}>
