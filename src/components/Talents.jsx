@@ -293,7 +293,7 @@ export const Talents = () => {
                             className={"px-2 py-1 mb-2 border rounded"}
                             key={talent.name.replaceAll(" ", "-")}
                         >
-                            <summary>{talent.name}</summary>
+                            <summary className={"h5 mb-1"}>{talent.name}</summary>
                             <p>{talent.description}</p>
                         </details>
                     )
@@ -307,7 +307,7 @@ export const Talents = () => {
                             className={"px-2 py-1 mb-2 border rounded"}
                             key={drawback.name.replaceAll(" ", "-")}
                         >
-                            <summary>{drawback.name}</summary>
+                            <summary className={"h5 mb-1"}>{drawback.name}</summary>
                             <p>{drawback.description}</p>
                         </details>
                     )

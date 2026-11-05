@@ -3,7 +3,7 @@ export const Mechanics = () => {
         <section className={"bg-white px-3 pb-2"}>
             <h1>Mechanics</h1>
             <details className={"p-2 py-1 mb-2 border rounded"}>
-                <summary className={"h3"}>Checks</summary>
+                <summary className={"h5 mb-1"}>Checks</summary>
                 <ul>
                     <li>When making a check, collect dice equal to your score in the attribute being tested. This collection of dice is referred to as your dice pool.</li>
                     <li>To succeed, you generally need only one success, which is a die showing 6.</li>
@@ -15,7 +15,7 @@ export const Mechanics = () => {
                 </ul>
             </details>
             <details className={"p-2 py-1 mb-2 border rounded"}>
-                <summary className={"h3"}>Pushing</summary>
+                <summary className={"h5 mb-1"}>Pushing</summary>
                 <ul>
                     <li>If you fail a roll, or just want more successes, you can push the roll.</li>
                     <li>Reroll all dice that don't show a 1 or a 6.</li>
@@ -26,7 +26,7 @@ export const Mechanics = () => {
                 </ul>
             </details>
             <details className={"p-2 py-1 mb-2 border rounded"}>
-                <summary className={"h3"}>Maps, Zones, Range, and Altitude</summary>
+                <summary className={"h5 mb-1"}>Maps, Zones, Range, and Altitude</summary>
                 <ul>
                     <li>Action scenes in this game are typically played out using a map of the area.</li>
                     <li>The map is divided into zones. A zone is typically a room, a rooftop, or an area of ground up to about 100 feet wide.
@@ -39,7 +39,7 @@ export const Mechanics = () => {
                 </ul>
             </details>
             <details className={"p-2 py-1 mb-2 border rounded"}>
-                <summary className={"h3"}>Non-Combat Stunts</summary>
+                <summary className={"h5 mb-1"}>Non-Combat Stunts</summary>
                 <p className={"mb-0"}><strong>Regular Stunts:</strong> If you roll more than one success on an attribute roll, you can achieve bonus effects called stunts. Some examples are listed below.</p>
                 <ul>
                     <li><strong>You show off:</strong> Everyone around you is impressed by your prowess.</li>
@@ -50,7 +50,7 @@ export const Mechanics = () => {
                 </ul>
             </details>
             <details className={"px-2 py-1 mb-2 border rounded"}>
-                <summary className={"h3"}>Combat</summary>
+                <summary className={"h5 mb-1"}>Combat</summary>
                 <ul>
                     <li><strong>Surprise Attacks:</strong> If combat starts with an attack that the GM deems to be surprising, the defender(s) must roll for INTUITION. It's a passive roll that cannot be pushed. All defenders who fail the roll automatically get the highest (worst) initiative card(s) in the first round of combat. Distribute these randomly before letting the other combatants draw initiative.</li>
                     <li><strong>Initiative:</strong> Each player in the fight draws a random initiative card at the beginning of each round, and the GM draws cards for NPCs. Low cards act first. Some powers allow characters to take more than one turn per round, drawing an initiative card for each.</li>
@@ -178,7 +178,7 @@ export const Mechanics = () => {
                 </ul>
             </details>
             <details className={"px-2 py-1 mb-2 border rounded"}>
-                <summary className={"h3"}>Hazards</summary>
+                <summary className={"h5 mb-1"}>Hazards</summary>
                 <h4>Disease</h4>
                 <p>When exposed to a dangerous contagion, poison, or infection, you need to roll for STRENGTH to avoid falling sick. This is a passive roll, and cannot be pushed. The GM may even roll for you in secret.
                 <br/><strong>Virulence:</strong> Diseases and poisons have a virulence rating, which is a negative modifier to your STRENGTH roll. If the virulence is not listed, it is zero.

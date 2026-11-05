@@ -5,9 +5,18 @@ import {
 
 import { Col, Container, Row, Tab, Tabs } from "react-bootstrap";
 
-import {Gear, Mechanics, Powers, Talents, YourSuperhero} from "./components";
+import {
+    BaseUpgrades,
+    CharacterAdvancement,
+    Gear,
+    Mechanics,
+    Powers,
+    Talents,
+    YourSuperhero,
+} from "./components";
 
 import "./App.css";
+
 
 export const App = () => {
 	useEffect(
@@ -94,6 +103,12 @@ export const App = () => {
 						</Tab>
 						<Tab eventKey={"gear"} title={"Gear"}>
 							<Gear/>
+						</Tab>
+                        <Tab eventKey={"advancement"} title={"Character Advancement"}>
+							<CharacterAdvancement/>
+						</Tab>
+                        <Tab eventKey={"upgrades"} title={"Base Upgrades"}>
+							<BaseUpgrades/>
 						</Tab>
     	      		</Tabs>
         		</Col>

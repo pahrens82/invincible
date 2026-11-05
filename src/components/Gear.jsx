@@ -304,7 +304,7 @@ export const Gear = () => {
         <section className={"bg-white px-3 pb-2"}>
             <h1>Gear</h1>
             <details className={"border rounded px-2 py-1 mb-2"}>
-                <summary className={"h3"}>Weapons</summary>
+                <summary className={"h5 mb-1"}>Weapons</summary>
                 <table className={"table table-sm table-striped flex-item flex-grow-2"}>
                     <thead>
                         <tr>
@@ -332,7 +332,7 @@ export const Gear = () => {
                 </ul>
             </details>
             <details className={"border rounded px-2 py-1 mb-2"}>
-                <summary className={"h3"}>Armor</summary>
+                <summary className={"h5 mb-1"}>Armor</summary>
                 <table className={"table table-sm table-striped"}>
                     <thead>
                         <tr>
@@ -349,7 +349,7 @@ export const Gear = () => {
                 </table>
             </details>
             <details className={"border rounded px-2 py-1 mb-2"}>
-                <summary className={"h3"}>Other</summary>
+                <summary className={"h5 mb-1"}>Other</summary>
                 <table className={"table table-sm table-striped"}>
                     <thead>
                         <tr>
@@ -367,7 +367,7 @@ export const Gear = () => {
                 </table>
             </details>
             <details className={"border rounded px-2 py-1 mb-2"}>
-                <summary className={"h3"}>Misc</summary>
+                <summary className={"h5 mb-1"}>Misc</summary>
                 <table className={"table table-sm table-striped"}>
                     <thead>
                         <tr>

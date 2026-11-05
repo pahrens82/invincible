@@ -1270,7 +1270,7 @@ export const Powers = () => {
                 </div>
                 <div>
                     <details className={"px-2 py-1 mb-2 border rounded"}>
-                        <summary>Filters</summary>
+                        <summary className={"h5 mb-1"}>Filters</summary>
                         <form
                             className={"d-flex flex-column flex-lg-row"}
                             onChange={handleChange}
@@ -1306,9 +1306,9 @@ export const Powers = () => {
                         className={"px-2 py-1 mb-2 border rounded"}
                         key={power.Name.replaceAll(" ", "-")}
                     >
-                        <summary>{power.Name} ({power.Type})</summary>
-                        <p><strong>Examples:</strong> {power.Examples}</p>
-                        <hr />
+                        <summary className={"h5 mb-1"}>{power.Name} ({power.Type})</summary>
+                        <p className={"mb-1"}><strong>Examples:</strong> {power.Examples}</p>
+                        <hr className={"my-2"} />
                         <p>{power.Base}</p>
                         {power.Major?.length ? <p><strong>Major:</strong> {power.Major}</p> : null}
                         {power.Massive?.length ? <p><strong>Massive:</strong> {power.Massive}</p> : null}
