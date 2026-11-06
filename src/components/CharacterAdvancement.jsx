@@ -34,7 +34,7 @@ export const CharacterAdvancement = () => {
                 <li><strong>Talents:</strong> Learning a new talent costs 10 karma points. Some talents (like Windfall) also require an in-game explanation, and can be used for social scenes.</li>
                 <li><strong>Drawbacks:</strong> You cannot “learn” new drawbacks, but you can remove an existing drawback for 10 karma points. You need to explain how your hero overcame their drawback.</li>
                 <li><strong>Base Upgrades:</strong> A new base upgrade costs 10 karma points. You can pool your points in the team to improve your base. Note that some upgrades have specific prerequisites that must be met.</li>
-                <li><strong>Training Facilities:</strong> If your team base has the Training Facilities or Training Simulator upgrade and you spend your time there between sessions, the karma costs for improving your heroes (but not for base upgrades) are reduced.</li>
+                <li><strong>Training Facilities:</strong> If your team base has the Training Facilities or Training Simulator upgrade and you spend your time there between sessions, the karma costs for improving your heroes (but not for base upgrades) are reduced. The effects of Training Facilities and the Training Simulator are cumulative. Each upgrade reduces the costs of Attribute, Power, and Talent improvements by 10%.</li>
             </ul>
         </section>
     );
