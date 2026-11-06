@@ -337,13 +337,14 @@ export const Gear = () => {
                     <thead>
                         <tr>
                             <th>Item</th>
+                            <th>Rating</th>
                             <th>Features</th>
                             <th>Cost</th>
                         </tr>
                     </thead>
                     <tbody>
                         {ARMOR.map((item, index) => {
-                            return <tr key={item.name}><td>{item.name}</td><td>{item.comment}</td><td>{item.cost}</td></tr>
+                            return <tr key={item.name}><td>{item.name}</td><td>{item.rating}</td><td>{item.comment}</td><td>{item.cost}</td></tr>
                         })}
                     </tbody>
                 </table>
