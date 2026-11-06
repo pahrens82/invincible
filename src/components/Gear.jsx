@@ -13,7 +13,7 @@ const WEAPONS = [
         damage: "2",
         range: "-",
         cost: "1",
-        features: "",
+        features: "-",
     },
     {
         type: TYPES.weapon,
@@ -58,7 +58,7 @@ const WEAPONS = [
         damage: "2",
         range: "0/1",
         cost: "3",
-        features: "",
+        features: "-",
     },
     {
         type: TYPES.weapon,
@@ -99,7 +99,7 @@ const WEAPONS = [
     {
         type: TYPES.weapon,
         name: "Plasma Rifle",
-        bonus: "2",
+        bonus: "+2",
         damage: "3",
         range: "0/3",
         cost: "6R",
