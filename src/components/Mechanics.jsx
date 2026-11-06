@@ -100,9 +100,9 @@ export const Mechanics = () => {
                             <li>Pounding your opponent with your fists, or a melee weapon, is called slugfest.</li>
                             <li>A slugfest attack can only be made a targets in the same zone, unless a power or special rule allows otherwise.</li>
                             <li>Slugfest is a full action using the FIGHTING attribute, except for the Charge special attack, which uses STRENGTH instead.</li>
-                            <li>A success on a Slugfest roll inflicts your Slugfest damage on the target. The damage may be reduced by Armor.</li>
-                            <li>If you wish, you can choose to inflict less than your full Slugfest damage.</li>
-                            <li>If you use a weapon, you inflict its damage rating instead of your Slugfest damage.</li>
+                            <li>A success on a Slugfest roll inflicts your Slugfest DAMAGE on the target. The DAMAGE may be reduced by ARMOR.</li>
+                            <li>If you wish, you can choose to inflict less than your full Slugfest DAMAGE.</li>
+                            <li>If you use a weapon, you inflict its DAMAGE rating instead of your Slugfest DAMAGE.</li>
                             <li>If your opponent is unaware or restrainted, they cannot block your attack and you get +2 dice.</li>
                             <li><strong>Blocking:</strong> A character aware of an incoming Slugfest attack can attempt to block it. This is a quick action and requires a FIGHTING roll. You must choose to block before the attacker rolls. Each success on the FIGHTING roll eliminates one success rolled by the attacker. Blocking rolls cannot be pushed. If you roll more successes than the attacker, you can counterattack. This counts as a normal Slugfest attack which hits automatically with the successes beyond what you needed to eliminate all of the attacker's successes. Extra successes can be used for stunts normally. It's not possible to block a counterattack.</li>
                         </ul>
@@ -111,7 +111,7 @@ export const Mechanics = () => {
                         <ul>
                             <li>When shooting someone at a distance, roll for AGILITY.</li>
                             <li>All shooting powers and weapons have a minimum and maximum range. Range 0 means inside the same zone. Attacks closer than the minimum range get -3 dice. A weapon cannot be used beyond its maximum range.</li>
-                            <li>If your AGILITY roll succeeds, you inflict damage per the power or weapon you are using. This damage may be reduced by armor.</li>
+                            <li>If your AGILITY roll succeeds, you inflict DAMAGE per the power or weapon you are using. This DAMAGE may be reduced by ARMOR.</li>
                             <li><strong>Dodging:</strong> A character being shot at, and is aware of the attack, can try to dodge the attack. This requires a quick action, and they roll for AGILITY. Dodging must be declared before the attacker rolls. Each success on the AGILITY roll eliminates one success from the attacker's roll. Dodge rolls cannot be pushed. If you roll more successes than the attacker, you can move one zone for each success beyond what the attacker rolled.</li>
                         </ul>
                     </li>
@@ -120,10 +120,10 @@ export const Mechanics = () => {
                             <li><strong>Elevated:</strong> Moving between the ground an Elevated altitude is a quick action, and can even be done as part of a horizontal movement without requiring a separate action.</li>
                             <li><strong>Sky High:</strong> Moving between Sky High altitude and any other altitude requires one full action.</li>
                             <li><strong>In Orbit:</strong> Moving between Orbit and any other altitude requires one full action.</li>
-                            <li><strong>Falling:</strong> A fall from Elevated inflicts 1d6 damage. An AGILITY roll while falling eliminates 1 point of damage per success, or all damage if there is something to grab onto. You cannot fall from orbit.</li>
+                            <li><strong>Falling:</strong> A fall from Elevated inflicts 1d6 DAMAGE. An AGILITY roll while falling eliminates 1 point of DAMAGE per success, or all DAMAGE if there is something to grab onto. You cannot fall from orbit.</li>
                             <li><strong>Carrying Others:</strong> If you can fly, you can carry one other character, who starts and ends their move in the same zone as you. This cannot be combined with a charge attack. If you remain airborne after such a move, none of you can attack, block, or dodge until you have landed.</li>
-                            <li><strong>Buildings:</strong> Moving into buildings is typically a normal quick action unless the doors are locked. Each floor (and the roof) of a building counts as a zone. Locked doors can be breached by a STRENGTH roll (quick action), but only if half your STRENGTH (rounded up) exceeds the Armor Rating of the barrier. Electronically sealed doors can be opened with a REASON roll (full action).</li>
-                            <li><strong>Crashing Through Walls:</strong> If you're in a hurry, you can crash through a door or wall as part of a movement action. In a single quick action, you can move and make a STRENGTH roll as per above to breach the barrier. If you can move more than a single zone in a quick action and have movement left after breaching the barrier, you can continue to move normally. If your STRENGTH roll fails, you stop at the barrier and take damage equal to the Armor Rating of the barrier.</li>
+                            <li><strong>Buildings:</strong> Moving into buildings is typically a normal quick action unless the doors are locked. Each floor (and the roof) of a building counts as a zone. Locked doors can be breached by a STRENGTH roll (quick action), but only if half your STRENGTH (rounded up) exceeds the ARMOR Rating of the barrier. Electronically sealed doors can be opened with a REASON roll (full action).</li>
+                            <li><strong>Crashing Through Walls:</strong> If you're in a hurry, you can crash through a door or wall as part of a movement action. In a single quick action, you can move and make a STRENGTH roll as per above to breach the barrier. If you can move more than a single zone in a quick action and have movement left after breaching the barrier, you can continue to move normally. If your STRENGTH roll fails, you stop at the barrier and take DAMAGE equal to the ARMOR Rating of the barrier.</li>
                         </ul>
                     </li>
                     <li><strong>Miscellaneous:</strong>
@@ -133,10 +133,10 @@ export const Mechanics = () => {
                                 <ul>
                                     <li>Roll for the attack using STRENGTH instead of FIGHTING.</li>
                                     <li>A charge cannot be blocked, but it can be dodged as a shooting attack.</li>
-                                    <li>When charging, the only allowed stunts are Double Damage and Slam.</li>
+                                    <li>When charging, the only allowed stunts are Double DAMAGE and Slam.</li>
                                 </ul>
                             </li>
-                            <li><strong>Grapple:</strong> Another special type of slugfest attack is the grapple. Roll for FIGHTING normally, and the attack can be blocked as usual. No weapon can be used. If successful, your opponent cannot move or perform any actions requiring body movement (including slugfest and shooting attacks) except trying to break free. This is an opposed STRENGTH vs STRENGTH roll against you (quick action for the opponent breaking free, no action for you). While you are grappling an opponent, the only actions you can perform (until you choose to release your opponent) are movement (pulling your opponent with you) and a grapple attack. This works as a normal slugfest attack but it cannot be blocked, and the only stunt allowed is Double Damage. Huge creatures cannot be grappled.</li>
+                            <li><strong>Grapple:</strong> Another special type of slugfest attack is the grapple. Roll for FIGHTING normally, and the attack can be blocked as usual. No weapon can be used. If successful, your opponent cannot move or perform any actions requiring body movement (including slugfest and shooting attacks) except trying to break free. This is an opposed STRENGTH vs STRENGTH roll against you (quick action for the opponent breaking free, no action for you). While you are grappling an opponent, the only actions you can perform (until you choose to release your opponent) are movement (pulling your opponent with you) and a grapple attack. This works as a normal slugfest attack but it cannot be blocked, and the only stunt allowed is Double DAMAGE. Huge creatures cannot be grappled.</li>
                             <li><strong>Huge Creatures:</strong> Certain beings in the game are designated as huge creatures. These follow normal rules, but with a few exceptions:
                                 <ul>
                                     <li>They can attack Elevated characters in Slugfest.</li>
@@ -145,30 +145,31 @@ export const Mechanics = () => {
                                     <li>They are immune to Action Banter.</li>
                                 </ul>
                             </li>
+                            <li><strong>Action Banter:</strong> Wisecracks and witty banter are staples of superhero stories, where a character's words can be so frustrating that their impact is often felt more than their punches. As a quick action, you can banter with an opponent to reduce their RESOLVE. Make an opposed roll for PRESENCE against an opponent in the same zone. For each success you rolled more than the target, they take 1 point of stress. Action banter typically doesn't work against huge creatures (page 92). A single character can only be targeted by action banter once per round</li>
                         </ul>                        
                     </li>
                     <li><strong>Combat Stunts</strong>
                         <ul>
                             <li><strong>Melee Stunts</strong>
                                 <ul>
-                                    <li><strong>Double Damage:</strong> The damage from your attack is doubled before any reduction for Armor.</li>
-                                    <li><strong>Knockback:</strong> Your target is knocked back a number of zones equal to half your STRENGTH rating (rounded up). If the target hits a barrier, the target suffers additional damage equal to the Knockback distance (reduced for Armor). If the barrier's Armor is lower than the damage, the target continues through the barrier, potentially hitting more barriers. The damage done is reduced by -1 at each barrier after the first until the movement stops. On a city map, each building is typically considered one zone bordered by exterior walls (Armor 3). Huge creatures are immune to Knockback unless stated otherwise. You cannot combine Knockback with Deadly Hit.</li>
-                                    <li><strong>Stun:</strong> If your target takes any damage from the attack, they must make an immediate PRESENCE roll (no action) or miss their next turn. They also cannot perform interrupt actions until then. Huge creatures are immune to Stun unless stated otherwise.</li>
-                                    <li><strong>Bang Heads:</strong> You slam your target into an additional opponent in the same zone. You may choose this stunt multiple times. Each additional target damage equal to half your STRENGTH rating (rounded up) and any further stunts are applied to each target separately. You cannot combine Bang Heads with Deadly Hit.</li>
+                                    <li><strong>Double Damage:</strong> The DAMAGE from your attack is doubled before any reduction for ARMOR.</li>
+                                    <li><strong>Knockback:</strong> Your target is knocked back a number of zones equal to half your STRENGTH rating (rounded up). If the target hits a barrier, the target suffers additional DAMAGE equal to the Knockback distance (reduced for ARMOR). If the barrier's ARMOR is lower than the DAMAGE, the target continues through the barrier, potentially hitting more barriers. The DAMAGE done is reduced by -1 at each barrier after the first until the movement stops. On a city map, each building is typically considered one zone bordered by exterior walls (ARMOR 3). Huge creatures are immune to Knockback unless stated otherwise. You cannot combine Knockback with Deadly Hit.</li>
+                                    <li><strong>Stun:</strong> If your target takes any DAMAGE from the attack, they must make an immediate PRESENCE roll (no action) or miss their next turn. They also cannot perform interrupt actions until then. Huge creatures are immune to Stun unless stated otherwise.</li>
+                                    <li><strong>Bang Heads:</strong> You slam your target into an additional opponent in the same zone. You may choose this stunt multiple times. Each additional target DAMAGE equal to half your STRENGTH rating (rounded up) and any further stunts are applied to each target separately. You cannot combine Bang Heads with Deadly Hit.</li>
                                     <li><strong>Trap:</strong> You immobilize your opponent under debris or inside some enclosure, depending on the zone you're in. Getting out requires an AGILITY or STRENGTH roll (quick action) and until then, the target cannot move or make slugfest attacks. You cannot choose this stunt in a completely empty zone.</li>
                                     <li><strong>Disarm:</strong> You wrestle an item from your opponent's grasp. You can keep the item or throw it into an adjacent zone as part of the stunt.</li>
-                                    <li><strong>Deadly Hit:</strong> If your attack causes damage, you inflict a critical injury even if the target is not broken. Roll a D6 and add the amount of damage inflicted by the attack, up to a maximum of +6, to determine the injury on the table on page 96. This stunt requires a weapon or power with sharp damage (page 96) and it cannot be used against huge creatures. You cannot combine Deadly Hit with Knockback or Bang Heads.</li>
-                                    <li><strong>Slam:</strong> If you charge an opponent and get more successes than you need to hit and you have remaining movement left after the point of attack, you can spend one extra success to push your opponent before you and keep moving in the same direction until your move ends. If you hit a barrier along the way, your opponent suffers additional damage equal to half your STRENGTH rating (rounded up), reduced by armor. If the barrier's Armor is lower than this damage, you can continue the movement through the barrier, potentially hitting more barriers, until the movement stops. Huge creatures cannot be slammed unless stated otherwise.</li>
+                                    <li><strong>Deadly Hit:</strong> If your attack causes DAMAGE, you inflict a CRITICAL INJURY even if the target is not BROKEN. Roll a D6 and add the amount of DAMAGE inflicted by the attack, up to a maximum of +6, to determine the injury on the table on page 96. This stunt requires a weapon or power with SHARP DAMAGE (page 96) and it cannot be used against huge creatures. You cannot combine Deadly Hit with Knockback or Bang Heads.</li>
+                                    <li><strong>Slam:</strong> If you charge an opponent and get more successes than you need to hit and you have remaining movement left after the point of attack, you can spend one extra success to push your opponent before you and keep moving in the same direction until your move ends. If you hit a barrier along the way, your opponent suffers additional DAMAGE equal to half your STRENGTH rating (rounded up), reduced by ARMOR. If the barrier's ARMOR is lower than this DAMAGE, you can continue the movement through the barrier, potentially hitting more barriers, until the movement stops. Huge creatures cannot be slammed unless stated otherwise.</li>
                                     <li><strong>Your Own:</strong> If you have a cool idea for a stunt, you're free to propose it to the GM, who has final say on whether or not to allow it.</li>
                                 </ul>
                             </li>
                             <li><strong>Ranged Stunts</strong>
                                 <ul>
-                                    <li><strong>Double Damage:</strong> The damage from your attack is doubled before any reduction for Armor.</li>
-                                    <li><strong>Suppressed:</strong> If your target takes any damage from the attack,  they must make an immediate PRESENCE roll (no action) or miss their next turn. They also cannot perform interrupt actions until then. This stunt cannot be used against huge creatures.</li>
-                                    <li><strong>Trick Shot:</strong> Your attack continues to hit an additional opponent in the same zone. You may choose this stunt multiple times. Each target suffers the base Damage, and any further stunts are applied to each target separately.</li>
+                                    <li><strong>Double DAMAGE:</strong> The DAMAGE from your attack is doubled before any reduction for ARMOR.</li>
+                                    <li><strong>Suppressed:</strong> If your target takes any DAMAGE from the attack,  they must make an immediate PRESENCE roll (no action) or miss their next turn. They also cannot perform interrupt actions until then. This stunt cannot be used against huge creatures.</li>
+                                    <li><strong>Trick Shot:</strong> Your attack continues to hit an additional opponent in the same zone. You may choose this stunt multiple times. Each target suffers the base DAMAGE, and any further stunts are applied to each target separately.</li>
                                     <li><strong>Disarm:</strong> You shoot an item from your opponent's grasp. It falls to the ground in the same zone.</li>
-                                    <li><strong>Deadly Hit:</strong> If your attack causes damage, you inflict a critical injury even if the target is not broken. Roll a D6 and add the amount of damage inflicted by the attack, up to a maximum of +6, to determine the injury on the table on page 96. This stunt requires a weapon or power with sharp damage (page 96) and it cannot be used against huge creatures.</li>
+                                    <li><strong>Deadly Hit:</strong> If your attack causes DAMAGE, you inflict a CRITICAL INJURY even if the target is not BROKEN. Roll a D6 and add the amount of DAMAGE inflicted by the attack, up to a maximum of +6, to determine the injury on the table on page 96. This stunt requires a weapon or power with SHARP DAMAGE (page 96) and it cannot be used against huge creatures.</li>
                                     <li><strong>Your Own:</strong> If you have a cool idea for a stunt, you're free to propose it to the GM, who has final say on whether or not to allow it.</li>
                                 </ul>
                             </li>
@@ -178,22 +179,88 @@ export const Mechanics = () => {
                 </ul>
             </details>
             <details className={"px-2 py-1 mb-2 border rounded"}>
+                <summary className={"h5 mb-1"}>Damage, Critical Injuries, and Healing</summary>
+                <strong>Damage</strong>
+                <ul>
+                    <li>How much DAMAGE you can take before being BROKEN is determined by your HEALTH score.</li>
+                    <li>Your starting maximum HEALTH equals the sum of your FIGHTING, AGILITY, and STRENGTH scores divided by two, rounding up to the closest whole number. It can be further modified by talents, drawbacks, and powers.</li>
+                    <li>If you drop to zero HEALTH, you are BROKEN. Immediately roll for a CRITICAL INJURY.</li>
+                </ul>
+                
+                <strong>Armor</strong>
+                <ul>
+                    <li>DAMAGE can be reduced by ARMOR, which can come from powers or gear.</li>
+                    <li>When you take DAMAGE from an external attack, the DAMAGE caused is simply reduced by the ARMOR rating. If no DAMAGE remains, you are unhurt by the attack.</li>
+                    <li>You can only benefit from one source of ARMOR at a time.</li>
+                </ul>
+
+                <strong>Broken & Critical Injuries</strong>
+                <ul>
+                    <li>When you become BROKEN, immediately roll a D6 and add the number of DAMAGE points you suffered in excess of what was needed to make you BROKEN, if any.</li>
+                    <li>Whatever CRITICAL INJURY you suffer, while BROKEN you are out of action, unable to move, roll for any attributes, or use any powers.</li>
+                    <li>You don't track negative HEALTH, but if you suffer additional DAMAGE while BROKEN, even a single point, you automatically suffer another CRITICAL INJURY; add the number of DAMAGE points suffered directly to the D6 roll.</li>
+                    <li>If you have a CRITICAL INJURY and suffer another, roll for it normally, but add +1 to the result for each previous crit you already have. Also, if you suffer any result equal to or lower than the (worst) crit you already have it is automatically replaced by a crit one step worse. For example, if you are battered (6) and roll a 3 (increased to 4) for a new crit, it is shifted up to a crushed arm (7).</li>
+                    <li>Modifiers to the same attributes from different crits are not cumulative - only the worst modifier counts.</li>
+                    <li>Some weapons and powers can inflict SHARP DAMAGE. This allows the attacker to use an extra success to trigger the Deadly Hit stunt in slugfest and shooting, causing a CRITICAL INJURY even if the target is not BROKEN. Simply roll a D6 and add the amount of DAMAGE inflicted by the attack, up to a maximum of +6, and check the result on the CRITICAL INJURY table.</li>
+                    <li><strong>Stabilizing:</strong> Some CRITICAL INJURIES require you to be stabilized within a certain time limit, or you will die. Stabilizing a CRITICAL INJURY requires advanced medical gear and a successful REASON roll. Only one attempt is allowed. Certain powers can also stabilize lethal crits.</li>
+                </ul>
+                <strong>Rallying</strong>
+                <ul>
+                    <li>When you are BROKEN, as long as you haven't suffered a cracked skull or worse CRITICAL INJURY (9+), you can try to get up again on your turn in the round. This is called rallying and is a full action requiring a successful PRESENCE roll.</li>
+                    <li>If this succeeds, you get back 1 point of HEALTH per success. Your CRITICAL INJURY remains however, which increases the risk of more severe CRITICAL INJURIES.</li>
+                    <li>Another hero or NPC who can communicate with you (including via communicators or powers) can try to motivate you to get you back on your feet as well, with a successful PRESENCE roll as above.</li>
+                </ul>
+                <strong>Recovering Health</strong>
+                <ul>
+                    <li>You cannot recover HEALTH during an action scene except by using powers like HEALING and REGENERATION.</li>
+                    <li>After an action scene, you automatically recover a number of HEALTH points equal to your STRENGTH rating after a few minutes. After a few hours of rest, all lost HEALTH is restored. Note that recovering all your HEALTH points doesn't mean that your CRITICAL INJURIES are gone - those take a longer time to heal.</li>
+                </ul>
+                <strong>Healing Critical Injuries</strong>
+                <ul>
+                    <li>Each CRITICAL INJURY has a specific effect that you suffer during the healing time indicated, which is measured in days, weeks, or even months. Note that you can recover all your lost HEALTH, but still suffer the effects of a CRITICAL INJURY.</li>
+                </ul>
+            </details>
+            <details className={"px-2 py-1 mb-2 border rounded"}>
+                <summary className={"h5 mb-1"}>Stress</summary>
+                <strong>Stress</strong>
+                <ul>
+                    <li>How much stress you can take is determined by your RESOLVE score.</li>
+                    <li>Your starting RESOLVE score is equal to the sum of your REASON, INTUITION, and PRESENCE scores divided by two, rounding up to the closest whole number. It can be further modified by talents, drawbacks, and powers.</li>
+                    
+                </ul>
+                <strong>Stressed Out</strong>
+                <ul>
+                    <li>When you drop to zero RESOLVE, you are stressed out.</li>
+                    <li>While stressed out, you can continue to act normally, but you are unable to PUSH rolls, and you cannot voluntarily take STRESS to increase the effects of your powers.</li>
+                    <li>NPCs will often (but not always) give up or flee when they lose all RESOLVE.</li>
+                    <li>You don't track negative RESOLVE. Additional STRESS suffered while already stressed out has no additional effect.</li>
+                </ul>
+                <strong>Recovering Resolve</strong>
+                <ul>
+                    <li>As opposed to HEALTH, you can attempt to recover RESOLVE during an action scene.</li>
+                    <li>This requires a PRESENCE roll by you or another character or NPC who can communicate with you (full action). If it succeeds, you regain a number of RESOLVE points equal to the number of successes rolled.</li>
+                    <li>Outside of action scenes, RESOLVE is recovered via interacting with NPCs in social scenes.</li>
+                    <li>After participating in a social scene you recover a number of RESOLVE points equal to your PRESENCE rating.</li>
+                    <li>If the amount of time between action scenes is a few hours or more, you recover all lost RESOLVE.</li>
+                </ul>
+            </details>
+            <details className={"px-2 py-1 mb-2 border rounded"}>
                 <summary className={"h5 mb-1"}>Hazards</summary>
-                <h4>Disease</h4>
+                <h3>Disease</h3>
                 <p>When exposed to a dangerous contagion, poison, or infection, you need to roll for STRENGTH to avoid falling sick. This is a passive roll, and cannot be pushed. The GM may even roll for you in secret.
                 <br/><strong>Virulence:</strong> Diseases and poisons have a virulence rating, which is a negative modifier to your STRENGTH roll. If the virulence is not listed, it is zero.
-                <br/><strong>Effects:</strong> Diseases can have a wide range of effects, as noted in their description. A common effect is to inflict 1 point of damage and trigger further STRENGTH rolls modified for virulence at regular intervals (typically once every few hours). Each failed roll inflicts 1 point of damage, and while sick, you cannot recover damage normally (page 98). If you are broken by such damage, don't roll for a critical injury. Instead, you die if you fail another STRENGTH roll to resist the disease. Once you succeed, your immune system has beaten the disease, and you can start to recover.
+                <br/><strong>Effects:</strong> Diseases can have a wide range of effects, as noted in their description. A common effect is to inflict 1 point of DAMAGE and trigger further STRENGTH rolls modified for virulence at regular intervals (typically once every few hours). Each failed roll inflicts 1 point of DAMAGE, and while sick, you cannot recover DAMAGE normally (page 98). If you are BROKEN by such DAMAGE, don't roll for a CRITICAL INJURY. Instead, you die if you fail another STRENGTH roll to resist the disease. Once you succeed, your immune system has beaten the disease, and you can start to recover.
                 <br/><strong>Medical Aid:</strong> If someone cares for you while you are sick, they can roll for REASON to fight off the disease, replacing your STRENGTH rolls. Medical gear and medicine can give bonuses to this.</p>
                 <h3>Explosions</h3>
-                <p>Some powers or weapons (page 95) have an explosive effect. You use these with a normal shooting attack, but if you hit, everyone in the target zone takes base Damage. Any stunts must be distributed separately among your targets. Each target dodges individually, and must declare this before your roll. If you fail your attack, no one is hurt. 
-                <br/><strong>Placed Explosives:</strong> Detonations caused by anything that's not a shooting attack have a Blast rating and a base Damage. The Damage is equal to half the Blast rating (rounding up). When the explosion occurs, roll a number of dice equal to the Blast. If one or more 6s are rolled, everyone in the zone suffers the base Damage. The blast roll cannot be pushed. The attack can be dodged normally and damage from an explosion may be reduced by Armor.
-                <br/>If additional 6s are rolled beyond the first, they are distributed randomly among the potential targets, and never more than one 6 for the same target. For each target who gets an extra 6, the damage is doubled (before applying Armor).</p>
+                <p>Some powers or weapons (page 95) have an explosive effect. You use these with a normal shooting attack, but if you hit, everyone in the target zone takes base DAMAGE. Any stunts must be distributed separately among your targets. Each target dodges individually, and must declare this before your roll. If you fail your attack, no one is hurt. 
+                <br/><strong>Placed Explosives:</strong> Detonations caused by anything that's not a shooting attack have a Blast rating and a base DAMAGE. The DAMAGE is equal to half the Blast rating (rounding up). When the explosion occurs, roll a number of dice equal to the Blast. If one or more 6s are rolled, everyone in the zone suffers the base DAMAGE. The blast roll cannot be pushed. The attack can be dodged normally and DAMAGE from an explosion may be reduced by ARMOR.
+                <br/>If additional 6s are rolled beyond the first, they are distributed randomly among the potential targets, and never more than one 6 for the same target. For each target who gets an extra 6, the DAMAGE is doubled (before applying ARMOR).</p>
                 <h3>Fire</h3>
-                <p>A fire usually covers one zone and is measured by its Intensity. A typical fire has Intensity 6-9. When entering a burning zone, or starting a round in one, roll a number of dice equal to the Intensity. For every 6 rolled, you suffer 2 points of damage. Armor has its normal effect.
-                <br/><strong>Catching Fire:</strong> If you take damage from a fire attack, you catch fire and continue to burn, suffering another fire attack at the start of each new round even if you leave the burning zone. As soon as a fire attack outside the burning zone inflicts no damage, you're no longer on fire. You, or an ally in the same zone, can stop you from burning with a successful AGILITY roll (full ction).
+                <p>A fire usually covers one zone and is measured by its Intensity. A typical fire has Intensity 6-9. When entering a burning zone, or starting a round in one, roll a number of dice equal to the Intensity. For every 6 rolled, you suffer 2 points of DAMAGE. ARMOR has its normal effect.
+                <br/><strong>Catching Fire:</strong> If you take DAMAGE from a fire attack, you catch fire and continue to burn, suffering another fire attack at the start of each new round even if you leave the burning zone. As soon as a fire attack outside the burning zone inflicts no DAMAGE, you're no longer on fire. You, or an ally in the same zone, can stop you from burning with a successful AGILITY roll (full ction).
                 <br/><strong>Fire Spreading:</strong> For a typical fire, roll a D6 at the start of each round. On 1-2, the fire goes out and the zone is no longer considered burning. On a 5-6, the fire spreads to a random adjacent zone (with the same Intensity), assuming the zone border is not blocked and there is something in the adjacent zone that can burn. Extinguishing a fire is typically a challenge (page 101).</p>
                 <h3>Vacuum</h3>
-                <p>If you get caught in space without the protection of a space suit, hull of a ship, or protective superpowers such as ADAPTATION and LIFE SUPPORT, you won't last long. You must make a STRENGTH roll (no action) on each turn without protection in a vacuum. The roll is unmodified in the first round, but you get -1 die in the second round, -2 dice in the third round and so on. A failed roll means you drop directly to zero Health and are broken and die on your next turn, unless you are brought to a pressurized area before then. You don't suffer a critical injury.</p>
+                <p>If you get caught in space without the protection of a space suit, hull of a ship, or protective superpowers such as ADAPTATION and LIFE SUPPORT, you won't last long. You must make a STRENGTH roll (no action) on each turn without protection in a vacuum. The roll is unmodified in the first round, but you get -1 die in the second round, -2 dice in the third round and so on. A failed roll means you drop directly to zero HEALTH and are BROKEN and die on your next turn, unless you are brought to a pressurized area before then. You don't suffer a CRITICAL INJURY.</p>
             </details>
         </section>
     );
