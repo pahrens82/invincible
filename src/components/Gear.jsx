@@ -304,7 +304,41 @@ export const Gear = () => {
         <section className={"bg-white px-3 pb-2"}>
             <h1>Gear</h1>
             <details className={"border rounded px-2 py-1 mb-2"}>
+                <summary className={"h5 mb-1"}>
+                    Purchasing Gear
+                </summary>
+                <p>Beyond reflecting your general standard of living, your Resources score (page 31) can be used to make purchases of specific items that you need, using personal savings, wealthy patronage, or powerful connections. Don't use these rules for everyday purchases - those are included in your standard of living.</p>
+                <p><strong>Item Cost:</strong> Items have a Cost rating. The lists for weapons, armor, vehicles and general gear in this chapter indicate their Cost, and you can find a price list for common items below. For items not included in the lists, the GM can make a judgment call.</p>
+                <p><strong>Making A Purchase:</strong> When you need to buy a specific item, compare your Resources rating to the Cost rating of the item.</p>
+                <ul>
+                    <li>If your Resources rating is higher than the Cost, no roll is needed - you can easily purchase the item, and your Resources rating is not affected.</li>
+                    <li>If your Resources score is lower than the Cost, there is no way you can afford the item unless you get a loan (below).</li>
+                    <li>If your Resources are equal to the Cost, roll a number of dice equal to your Resources. You need to roll at least one 6 to afford the item. This roll cannot be pushed (page 82).</li>
+                    <li>If you succeed, you can purchase the item.</li>
+                    <li>If you fail, you can make a PRESENCE roll to barter with the seller if the GM finds this  feasible. If this roll is successful, you complete the purchase as per above.</li>
+                    <li>If both rolls fail, you cannot complete the purchase, and you cannot try to purchase the same item again until a few days have passed.</li>
+                    <li>Note that even if buying an item is fairly easy and straightforward in terms of the rules, it will typically take some time - at the very least a few minutes, and often a few hours or even days. This can generally only be done between action scenes and can even be used as a basis for a social scene.</li>
+                </ul>
+                <p><strong>Pooling Your Resources:</strong> When you make a Resources roll to complete a purchase, other heroes can chip in, adding a number of dice equal to their Resources score to the roll.</p>
+                <p><strong>Getting A Loan:</strong> If you get a loan, your Resources score can count as 1 or even 2 points higher than normal for one specific purchase. After the purchase (even if no roll was needed), your Resources score will be reduced 1 step for a few weeks (for a 1-point loan) or for a few months (for a 2-point loan). Typically, heroes with Resources 2 or 3 need the Streetwise talent to get a loan, and heroes with Resources 1 cannot get loans at all.</p>
+                <p><strong>Restricted Items:</strong> Some items cannot be legally purchased for various reasons. In the gear lists, the cost of such items are marked with an R. No matter what your Resources rating is, you cannot purchase restricted items unless you have the Streetwise talent.</p>
+                <p><strong>Multiple Items:</strong> Typically, each purchase of an item is managed separately, but if a hero wants to purchase several items of the same type, it should be considered a combined purchase at a higher Cost (GM's discretion).</p>
+                <p><strong>Losing Items:</strong> After you have used a purchased item for the purpose you needed it for, it is considered sold, given away, or otherwise lost. Remove it from your inventory. If you need a similar item again, you will need to make a new purchase.</p>
+            </details>
+            <details className={"border rounded px-2 py-1 mb-2"}>
+                <summary className={"h5 mb-1"}>
+                    Repairing Gear
+                </summary>
+                <p>To repair damage to a piece of gear, you need a few hours of work, and a REASON roll. Tools can give you bonuses to the roll. Each success rolled removes 1 point of damage from the item.</p>
+            </details>
+            <details className={"border rounded px-2 py-1 mb-2"}>
                 <summary className={"h5 mb-1"}>Weapons</summary>
+                <ul>
+                    <li><strong>Bonus:</strong> A dice bonus to your FIGHTING or AGILITY roll when using the weapon.</li>
+                    <li><strong>Damage:</strong> The base damage when using the weapon. In slugfest, this is used instead of your base slugfest damage.</li>
+                    <li><strong>Range:</strong> The range, in zones unless otherwise stated, at which the weapon can be used. A dash (-) means that the weapon can only be used in slugfest. For ranged weapons that allow shooting attacks, the minimum and maximum range are separated by a slash. 0 means the zone you are in.</li>
+                    <li><strong>Cost:</strong> Indicates how difficult the weapon is to obtain when using your RESOURCES rating. Weapons marked with an R are restricted and cannot typically be purchased without the STREETWISE talent.</li>
+                </ul>
                 <table className={"table table-sm table-striped flex-item flex-grow-2"}>
                     <thead>
                         <tr>
