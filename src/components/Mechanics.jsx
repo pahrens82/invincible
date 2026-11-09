@@ -262,6 +262,16 @@ export const Mechanics = () => {
                 <h3>Vacuum</h3>
                 <p>If you get caught in space without the protection of a space suit, hull of a ship, or protective superpowers such as ADAPTATION and LIFE SUPPORT, you won't last long. You must make a STRENGTH roll (no action) on each turn without protection in a vacuum. The roll is unmodified in the first round, but you get -1 die in the second round, -2 dice in the third round and so on. A failed roll means you drop directly to zero HEALTH and are BROKEN and die on your next turn, unless you are brought to a pressurized area before then. You don't suffer a CRITICAL INJURY.</p>
             </details>
+            <details className={"px-2 py-1 mb-2 border rounded"}>
+                <summary className={"h5 mb-1"}>Challenges</summary>
+                <ul>
+                    <li>Situations that provide non-combat difficulties that take more than a single roll to solve are called challenges.</li>
+                    <li>Challenges have a challenge rating and a time limit. Simple challenges have a challenge rating about equal to the time limit, a serious challenge has a rating twice the time limit, and a major crisis has a challenge rating three times the time limit or more.</li>
+                    <li>A challenge's time limit might be measured in rounds, minutes, days, etc.</li>
+                    <li>Each challenge has one or more objectives - specific goals or problems that arise due to the challenge. Handling an objective always requires a dice roll, even when using a power. You can also propose your own solutions and suggest appropriate rolls; the GM has final say.</li>
+                    <li>For each success you roll when handling an objective, the challenge loses 1 point from its challenge rating. If the challenge rating reaches 0 before the time limit expires, the challenge is considered dealt with and over. If not, you fail the challenge.</li>
+                </ul>
+            </details>
         </section>
     );
 };
